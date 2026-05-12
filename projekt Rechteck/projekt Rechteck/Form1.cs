@@ -6,5 +6,10 @@ namespace projekt_Rechteck
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            harun ibrahim 
+        }
     }
 }
