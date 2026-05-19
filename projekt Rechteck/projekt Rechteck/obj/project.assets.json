@@ -72,5 +72,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem beim Lesen der Cachedatei \"C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\obj\\project.nuget.cache\": Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

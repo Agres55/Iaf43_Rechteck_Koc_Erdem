@@ -10,6 +10,9 @@ namespace projekt_Rechteck
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+
+          
         }
     }
 }
