@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {}
+    "C:\\Users\\User\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {
+    "C:\\Users\\User\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
         "projectName": "projekt Rechteck",
-        "projectPath": "C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem-main\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
