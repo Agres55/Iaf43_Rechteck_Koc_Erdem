@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projekt Rechteck")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79dd8eba8a0ffbbf304d07d42ee5029f1017ce30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee5496601b2271ddc58252281bcf1b221e26295b")]
 [assembly: System.Reflection.AssemblyProductAttribute("projekt Rechteck")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projekt Rechteck")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
