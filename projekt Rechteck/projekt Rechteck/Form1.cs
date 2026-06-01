@@ -9,7 +9,34 @@ namespace projekt_Rechteck
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            harun ibrahim 
+
+        }
+
+        private void tbxBreite_TextChanged(object sender, EventArgs e)
+        {
+            BackColor = Color.Blue;
+
+        }
+
+        private void tbxHoehe_TextChanged(object sender, EventArgs e)
+        {
+            BackColor = Color.Yellow;
+        }
+
+       
+
+        
+
+        private void tbxFlaeche_TextChanged(object sender, EventArgs e)
+        {
+            BackColor = Color.Blue;
+
+        }
+
+        private void tbxUmfang_TextChanged(object sender, EventArgs e)
+        {
+            BackColor = Color.Red;
+
         }
     }
 }

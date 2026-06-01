@@ -1,0 +1,18 @@
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt_Rechteck.Form1.resources
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.csproj.GenerateResource.cache
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.GeneratedMSBuildEditorConfig.editorconfig
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.AssemblyInfoInputs.cache
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.AssemblyInfo.cs
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.csproj.CoreCompileInputs.cache
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.sourcelink.json
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt_Rechteck.Properties.Resources.resources
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.exe
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.deps.json
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.runtimeconfig.json
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.dll
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.pdb
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.dll
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\refint\projekt Rechteck.dll
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.pdb
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.genruntimeconfig.cache
+\\BK175055\ibrahim.k30\Download\Iaf43_Rechteck_Koc_Erdem-main\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\ref\projekt Rechteck.dll

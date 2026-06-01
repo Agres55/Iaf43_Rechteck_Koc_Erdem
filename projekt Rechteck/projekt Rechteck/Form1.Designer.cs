@@ -28,44 +28,180 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            lblBreite = new Label();
+            lblHoehe = new Label();
+            lblFlaeche = new Label();
+            lblUmfang = new Label();
+            tbxHoehe = new TextBox();
+            tbxBreite = new TextBox();
+            tbxFlaeche = new TextBox();
+            tbxUmfang = new TextBox();
+
             SuspendLayout();
             // 
-            // button1
+            // label1
             // 
-            button1.Location = new Point(327, 98);
-            button1.Name = "button1";
-            button1.Size = new Size(96, 49);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(153, 76);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 15);
+            label1.TabIndex = 0;
             // 
-            // button2
+            // label2
             // 
-            button2.Location = new Point(487, 105);
-            button2.Name = "button2";
-            button2.Size = new Size(83, 42);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            label2.AutoSize = true;
+            label2.Location = new Point(95, 76);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 15);
+            label2.TabIndex = 1;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = SystemColors.ActiveCaption;
+            label3.Location = new Point(29, 50);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 15);
+            label3.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(163, 88);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 15);
+            label4.TabIndex = 3;
+            // 
+            // lblBreite
+            // 
+            lblBreite.AutoSize = true;
+            lblBreite.BackColor = SystemColors.ActiveCaption;
+            lblBreite.Location = new Point(130, 106);
+            lblBreite.Name = "lblBreite";
+            lblBreite.Size = new Size(43, 15);
+            lblBreite.TabIndex = 4;
+            lblBreite.Text = "Breite :";
+            // 
+            // lblHoehe
+            // 
+            lblHoehe.AutoSize = true;
+            lblHoehe.BackColor = SystemColors.ActiveCaption;
+            lblHoehe.Location = new Point(130, 175);
+            lblHoehe.Name = "lblHoehe";
+            lblHoehe.Size = new Size(48, 15);
+            lblHoehe.TabIndex = 5;
+            lblHoehe.Text = "Hoehe :";
+            // 
+            // lblFlaeche
+            // 
+            lblFlaeche.AutoSize = true;
+            lblFlaeche.BackColor = SystemColors.ActiveCaption;
+            lblFlaeche.Location = new Point(130, 272);
+            lblFlaeche.Name = "lblFlaeche";
+            lblFlaeche.Size = new Size(53, 15);
+            lblFlaeche.TabIndex = 6;
+            lblFlaeche.Text = "Flaeche :";
+            // 
+            // lblUmfang
+            // 
+            lblUmfang.AutoSize = true;
+            lblUmfang.BackColor = SystemColors.ActiveCaption;
+            lblUmfang.Location = new Point(130, 343);
+            lblUmfang.Name = "lblUmfang";
+            lblUmfang.Size = new Size(56, 15);
+            lblUmfang.TabIndex = 7;
+            lblUmfang.Text = "Umfang :";
+            // 
+            // tbxHoehe
+            // 
+            tbxHoehe.BackColor = SystemColors.ScrollBar;
+            tbxHoehe.Location = new Point(238, 167);
+            tbxHoehe.Name = "tbxHoehe";
+            tbxHoehe.Size = new Size(100, 23);
+            tbxHoehe.TabIndex = 8;
+            tbxHoehe.TextChanged += tbxHoehe_TextChanged;
+            // 
+            // tbxBreite
+            // 
+            tbxBreite.BackColor = SystemColors.ScrollBar;
+            tbxBreite.Location = new Point(238, 98);
+            tbxBreite.Name = "tbxBreite";
+            tbxBreite.Size = new Size(100, 23);
+            tbxBreite.TabIndex = 9;
+            tbxBreite.TextChanged += tbxBreite_TextChanged;
+            // 
+            // tbxFlaeche
+            // 
+            tbxFlaeche.BackColor = SystemColors.ScrollBar;
+            tbxFlaeche.Location = new Point(238, 264);
+            tbxFlaeche.Name = "tbxFlaeche";
+            tbxFlaeche.ReadOnly = true;
+            tbxFlaeche.Size = new Size(100, 23);
+            tbxFlaeche.TabIndex = 10;
+            tbxFlaeche.TextChanged += tbxFlaeche_TextChanged;
+            // 
+            // tbxUmfang
+            // 
+            tbxUmfang.BackColor = SystemColors.ScrollBar;
+            tbxUmfang.Location = new Point(238, 340);
+            tbxUmfang.Name = "tbxUmfang";
+            tbxUmfang.ReadOnly = true;
+            tbxUmfang.Size = new Size(100, 23);
+            tbxUmfang.TabIndex = 11;
+            tbxUmfang.TextChanged += tbxUmfang_TextChanged;
+            // 
+            // btnRechnen
+            // 
+            btnRechnen.Location = new Point(472, 181);
+            btnRechnen.Name = "btnRechnen";
+            btnRechnen.Size = new Size(120, 78);
+            btnRechnen.TabIndex = 12;
+            btnRechnen.Text = "Rechnen";
+            btnRechnen.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnRechnen);
+            Controls.Add(tbxUmfang);
+            Controls.Add(tbxFlaeche);
+            Controls.Add(tbxBreite);
+            Controls.Add(tbxHoehe);
+            Controls.Add(lblUmfang);
+            Controls.Add(lblFlaeche);
+            Controls.Add(lblHoehe);
+            Controls.Add(lblBreite);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label lblBreite;
+        private Label lblHoehe;
+        private Label lblFlaeche;
+        private Label lblUmfang;
+        private TextBox tbxHoehe;
+        private TextBox tbxBreite;
+        private TextBox tbxFlaeche;
+        private TextBox tbxUmfang;
+        private Button btnRechnen;
     }
 }
