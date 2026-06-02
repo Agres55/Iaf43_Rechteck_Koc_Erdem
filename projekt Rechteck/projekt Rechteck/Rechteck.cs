@@ -19,7 +19,7 @@ namespace projekt_Rechteck
             get { return breite; }
             set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
                     throw new Exception("Breite muss größer als 0 sein!!");
                 }
@@ -33,7 +33,7 @@ namespace projekt_Rechteck
             get { return hoehe; }
             set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
                     throw new Exception("Hoehe muss größer als 0 sein !!");
                 }

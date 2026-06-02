@@ -1,0 +1,17 @@
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.exe
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.deps.json
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.runtimeconfig.json
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.dll
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\bin\Debug\net8.0-windows\projekt Rechteck.pdb
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt_Rechteck.Form1.resources
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.csproj.GenerateResource.cache
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.AssemblyInfo.cs
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.sourcelink.json
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.dll
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\refint\projekt Rechteck.dll
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.pdb
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\projekt Rechteck.genruntimeconfig.cache
+C:\Users\User\Downloads\git neueste github\Iaf43_Rechteck_Koc_Erdem\projekt Rechteck\projekt Rechteck\obj\Debug\net8.0-windows\ref\projekt Rechteck.dll
