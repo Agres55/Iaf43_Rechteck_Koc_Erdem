@@ -2,6 +2,8 @@ namespace projekt_Rechteck
 {
     public partial class Form1 : Form
     {
+        private Rechteck meinRechteck;
+
         public Form1()
         {
             InitializeComponent();
@@ -9,7 +11,15 @@ namespace projekt_Rechteck
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            harun ibrahim 
+
+
+
+
+        }
+
+        private void tbxBreite_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
