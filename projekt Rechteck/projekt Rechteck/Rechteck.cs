@@ -27,7 +27,7 @@ namespace projekt_Rechteck
                 }
                 else
 
-                    throw new Exception("Breite muss größer als 0 sein !!");
+                    throw new Exception("Breite muss über 1 und  unter oder gleich 30 sein !!");
             }
         }
 
@@ -41,7 +41,7 @@ namespace projekt_Rechteck
                     hoehe = value;
                 }
                 else
-                    throw new Exception("Hoehe muss größer als 0 sein !!");
+                    throw new Exception("Hoehe muss über 1 und unter oder gleich als 25 sein !!");
 
             }
         }
@@ -64,12 +64,14 @@ namespace projekt_Rechteck
             return (Breite + Breite) * (Hoehe + Hoehe);
         }
 
+        //Rechteck Zoomen
         public void Zoomen(double f)
         {
             Breite *= f;
             Hoehe *= f;
         }
 
+        //Rechteck Drehen
         public void Drehen()
         {
             double speicher;

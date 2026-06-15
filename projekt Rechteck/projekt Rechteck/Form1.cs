@@ -84,7 +84,7 @@ namespace projekt_Rechteck
             catch (Exception ex)
             {
                 // Bei allen problemen kommt diese messagebox
-                MessageBox.Show("FEHLER ! " + ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -116,7 +116,7 @@ namespace projekt_Rechteck
             catch (Exception ex)
             {
                 // Dieser Fehler kommt bei allen anderen Problemen
-                MessageBox.Show("FEHLER ! " + ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -127,9 +127,18 @@ namespace projekt_Rechteck
 
         private void btnDrehen_Click(object sender, EventArgs e)
         {
-            rechteck.Drehen();
-            tbxBreite.Text = Math.Round(rechteck.Breite, 2).ToString();
-            tbxHoehe.Text = Math.Round(rechteck.Hoehe, 2).ToString();
+            try
+            {
+                rechteck.Drehen();
+                tbxBreite.Text = Math.Round(rechteck.Breite, 2).ToString();
+                tbxHoehe.Text = Math.Round(rechteck.Hoehe, 2).ToString();
+            }
+            catch (Exception ex)
+            {
+                // Dieser Fehler kommt bei allen anderen Problemen
+                MessageBox.Show(ex.Message);
+            }
+
+        }
         }
     }
-}
