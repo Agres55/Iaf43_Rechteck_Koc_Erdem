@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {}
+    "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {
+    "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
+        "projectUniqueName": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
         "projectName": "projekt Rechteck",
-        "projectPath": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\obj\\",
+        "projectPath": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\projekt Rechteck.csproj",
+        "packagesPath": "C:\\Users\\ibrahim.k30.SCHULE\\.nuget\\packages\\",
+        "outputPath": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ibrahim.k30.SCHULE\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +40,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -63,7 +65,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

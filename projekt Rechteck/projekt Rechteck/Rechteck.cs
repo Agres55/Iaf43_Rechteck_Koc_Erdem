@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
-=======
+
 using System.Drawing.Text;
->>>>>>> 9b3a08f046512b859070f63cbfd6d2615eeb46d7
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +11,6 @@ namespace projekt_Rechteck
 {
     internal class Rechteck
     {
-<<<<<<< HEAD
-    }
-}
-=======
         //Attribute
         private double breite;
         private double hoehe;
@@ -26,12 +21,13 @@ namespace projekt_Rechteck
             get { return breite; }
             set
             {
-                if (value < 0)
+                if (value <= 30 && value >= 1)
                 {
-                    throw new Exception("Breite muss größer als 0 sein!!");
+                    breite = value;
                 }
+                else
 
-                breite = value;
+                    throw new Exception("Breite muss größer als 0 sein !!");
             }
         }
 
@@ -40,11 +36,13 @@ namespace projekt_Rechteck
             get { return hoehe; }
             set
             {
-                if (value < 0)
+                if (value <= 25 && value >= 1)
                 {
-                    throw new Exception("Hoehe muss größer als 0 sein !!");
+                    hoehe = value;
                 }
-                hoehe = value;
+                else
+                    throw new Exception("Hoehe muss größer als 0 sein !!");
+
             }
         }
 
@@ -63,8 +61,21 @@ namespace projekt_Rechteck
         //Diagonal Berechnen
         public double Diagonal()
         {
-            return (breite + breite) * (hoehe + hoehe);
+            return (Breite + Breite) * (Hoehe + Hoehe);
+        }
+
+        public void Zoomen(double f)
+        {
+            Breite *= f;
+            Hoehe *= f;
+        }
+
+        public void Drehen()
+        {
+            double speicher;
+            speicher = Breite;
+            Breite = Hoehe;
+            Hoehe = speicher;
         }
     }
 }
->>>>>>> 9b3a08f046512b859070f63cbfd6d2615eeb46d7

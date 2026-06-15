@@ -1,18 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\",
+  "WorkspaceRootPath": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|c:\\users\\user\\downloads\\git neueste github\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|solutionrelative:projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|\\\\bk175055\\ibrahim.k30\\desktop\\swe porejt wichtig!!!\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\rechteck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|c:\\users\\user\\downloads\\git neueste github\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\rechteck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|solutionrelative:projekt rechteck\\rechteck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|\\\\bk175055\\ibrahim.k30\\desktop\\swe porejt wichtig!!!\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|c:\\users\\user\\downloads\\git neueste github\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|solutionrelative:projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027CD3D8-9058-4A58-A6BB-5033B83F6119}|projekt Rechteck\\projekt Rechteck.csproj|\\\\bk175055\\ibrahim.k30\\desktop\\swe porejt wichtig!!!\\iaf43_rechteck_koc_erdem\\projekt rechteck\\projekt rechteck\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +19,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Entwurf]",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
+              "DocumentMoniker": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
               "RelativeDocumentMoniker": "projekt Rechteck\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs [Entwurf]",
+              "ToolTip": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs [Entwurf]",
               "RelativeToolTip": "projekt Rechteck\\Form1.cs [Entwurf]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T10:29:52.723Z",
@@ -40,24 +37,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
+              "DocumentMoniker": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
               "RelativeDocumentMoniker": "projekt Rechteck\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
+              "ToolTip": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Form1.cs",
               "RelativeToolTip": "projekt Rechteck\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAUwIMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T10:29:09.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Rechteck.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Rechteck.cs",
+              "DocumentMoniker": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Rechteck.cs",
               "RelativeDocumentMoniker": "projekt Rechteck\\Rechteck.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\git neueste github\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Rechteck.cs",
+              "ToolTip": "\\\\BK175055\\ibrahim.k30\\Desktop\\SWE POREJT wichtig!!!\\Iaf43_Rechteck_Koc_Erdem\\projekt Rechteck\\projekt Rechteck\\Rechteck.cs",
               "RelativeToolTip": "projekt Rechteck\\Rechteck.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T10:47:37.302Z",
               "EditorCaption": ""
