@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace projekt_Rechteck
 {
     public partial class Form1 : Form
@@ -9,18 +11,6 @@ namespace projekt_Rechteck
             InitializeComponent();
         }
         Rechteck rechteck = new Rechteck();
-
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-
-
-
-        }
-
-
 
         private void btnReinzoomen_Click(object sender, EventArgs e)
         {
@@ -63,6 +53,9 @@ namespace projekt_Rechteck
                 // Wenn das Textfeld leer ist mach hier nicht weiter
                 if (string.IsNullOrWhiteSpace(tbxBreite.Text))
                 {
+                    tbxUmfang.Text = "";
+                    tbxFlaeche.Text = "";
+                    tbxDiagonale.Text = "";
                     return;
                 }
 
@@ -73,8 +66,7 @@ namespace projekt_Rechteck
                 tbxUmfang.Text = Math.Round(rechteck.Umfang(), 3).ToString();
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
-
-
+                AktualisiereGrafik();
             }
             catch (FormatException)
             {
@@ -95,6 +87,9 @@ namespace projekt_Rechteck
                 // Wenn das Textfeld leer ist mach hier nicht weiter
                 if (string.IsNullOrWhiteSpace(tbxHoehe.Text))
                 {
+                    tbxUmfang.Text = "";
+                    tbxFlaeche.Text = "";
+                    tbxDiagonale.Text = "";
                     return;
                 }
 
@@ -105,8 +100,7 @@ namespace projekt_Rechteck
                 tbxUmfang.Text = Math.Round(rechteck.Umfang(), 3).ToString();
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
-
-
+                AktualisiereGrafik();
             }
             catch (FormatException)
             {
@@ -119,12 +113,6 @@ namespace projekt_Rechteck
                 MessageBox.Show(ex.Message);
             }
         }
-
-        private void tbxFlaeche_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnDrehen_Click(object sender, EventArgs e)
         {
             try
@@ -140,5 +128,55 @@ namespace projekt_Rechteck
             }
 
         }
+
+        private void cmbFarben_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            int index = cmbFarben.SelectedIndex;
+
+            //Farben fürs Rechteck
+            try
+            {
+                if (index == 0)
+                {
+                    btnRechteck.BackColor = Color.Black;
+                }
+                else if (index == 1)
+                {
+                    btnRechteck.BackColor = Color.Blue;
+                }
+                else if (index == 2)
+                {
+                    btnRechteck.BackColor = Color.Red;
+                }
+                else if (index == 3)
+                {
+                    btnRechteck.BackColor = Color.Yellow;
+                }
+                else if (index == 4)
+                {
+                    btnRechteck.BackColor = Color.White;
+                }
+
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+        private void AktualisiereGrafik()
+        {
+            //Damit das Rechteck Grapisch angezeigt wird
+            btnRechteck.Width = Convert.ToInt32(rechteck.Breite * 38);
+            btnRechteck.Height = Convert.ToInt32(rechteck.Hoehe * 38);
+            btnRechteck.Left = 950 - (btnRechteck.Width / 2);
+            btnRechteck.Top = 455 - (btnRechteck.Height / 2);
+        }
+
+        private void tbxText_TextChanged(object sender, EventArgs e)
+        {
+            btnRechteck.Text = tbxText.Text; //Es gibt denn text im Rechteck wieder
         }
     }
+
+}
