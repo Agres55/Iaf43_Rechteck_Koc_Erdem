@@ -49,44 +49,45 @@
             // lblBreite
             // 
             lblBreite.AutoSize = true;
-            lblBreite.Location = new Point(81, 25);
+            lblBreite.Location = new Point(93, 33);
             lblBreite.Name = "lblBreite";
-            lblBreite.Size = new Size(43, 15);
+            lblBreite.Size = new Size(55, 20);
             lblBreite.TabIndex = 1;
             lblBreite.Text = "Breite :";
             // 
             // lblHoehe
             // 
             lblHoehe.AutoSize = true;
-            lblHoehe.Location = new Point(81, 67);
+            lblHoehe.Location = new Point(93, 89);
             lblHoehe.Name = "lblHoehe";
-            lblHoehe.Size = new Size(48, 15);
+            lblHoehe.Size = new Size(60, 20);
             lblHoehe.TabIndex = 2;
             lblHoehe.Text = "Hoehe :";
             // 
             // lblFleache
             // 
             lblFleache.AutoSize = true;
-            lblFleache.Location = new Point(81, 187);
+            lblFleache.Location = new Point(93, 249);
             lblFleache.Name = "lblFleache";
-            lblFleache.Size = new Size(53, 15);
+            lblFleache.Size = new Size(66, 20);
             lblFleache.TabIndex = 3;
             lblFleache.Text = "Flaeche :";
             // 
             // lblUmfang
             // 
             lblUmfang.AutoSize = true;
-            lblUmfang.Location = new Point(81, 240);
+            lblUmfang.Location = new Point(93, 320);
             lblUmfang.Name = "lblUmfang";
-            lblUmfang.Size = new Size(56, 15);
+            lblUmfang.Size = new Size(69, 20);
             lblUmfang.TabIndex = 4;
             lblUmfang.Text = "Umfang :";
             // 
             // btnReinzoomen
             // 
-            btnReinzoomen.Location = new Point(81, 455);
+            btnReinzoomen.Location = new Point(93, 607);
+            btnReinzoomen.Margin = new Padding(3, 4, 3, 4);
             btnReinzoomen.Name = "btnReinzoomen";
-            btnReinzoomen.Size = new Size(90, 23);
+            btnReinzoomen.Size = new Size(103, 31);
             btnReinzoomen.TabIndex = 9;
             btnReinzoomen.Text = "+";
             btnReinzoomen.UseVisualStyleBackColor = true;
@@ -94,9 +95,10 @@
             // 
             // btnRauszoomen
             // 
-            btnRauszoomen.Location = new Point(229, 455);
+            btnRauszoomen.Location = new Point(262, 607);
+            btnRauszoomen.Margin = new Padding(3, 4, 3, 4);
             btnRauszoomen.Name = "btnRauszoomen";
-            btnRauszoomen.Size = new Size(83, 23);
+            btnRauszoomen.Size = new Size(95, 31);
             btnRauszoomen.TabIndex = 10;
             btnRauszoomen.Text = "-";
             btnRauszoomen.UseVisualStyleBackColor = true;
@@ -104,9 +106,10 @@
             // 
             // btnDrehen
             // 
-            btnDrehen.Location = new Point(81, 374);
+            btnDrehen.Location = new Point(93, 499);
+            btnDrehen.Margin = new Padding(3, 4, 3, 4);
             btnDrehen.Name = "btnDrehen";
-            btnDrehen.Size = new Size(231, 52);
+            btnDrehen.Size = new Size(264, 69);
             btnDrehen.TabIndex = 11;
             btnDrehen.Text = "Drehen ";
             btnDrehen.UseVisualStyleBackColor = true;
@@ -115,83 +118,90 @@
             // lblDiagonale
             // 
             lblDiagonale.AutoSize = true;
-            lblDiagonale.Location = new Point(81, 289);
+            lblDiagonale.Location = new Point(93, 385);
             lblDiagonale.Name = "lblDiagonale";
-            lblDiagonale.Size = new Size(63, 15);
+            lblDiagonale.Size = new Size(81, 20);
             lblDiagonale.TabIndex = 13;
             lblDiagonale.Text = "Diagonale:";
             // 
             // lblFarben
             // 
             lblFarben.AutoSize = true;
-            lblFarben.Location = new Point(81, 536);
+            lblFarben.Location = new Point(93, 715);
             lblFarben.Name = "lblFarben";
-            lblFarben.Size = new Size(46, 15);
+            lblFarben.Size = new Size(56, 20);
             lblFarben.TabIndex = 15;
             lblFarben.Text = "Farben:";
             // 
             // cmbFarben
             // 
             cmbFarben.FormattingEnabled = true;
-            cmbFarben.Location = new Point(191, 536);
+            cmbFarben.Location = new Point(218, 715);
+            cmbFarben.Margin = new Padding(3, 4, 3, 4);
             cmbFarben.Name = "cmbFarben";
-            cmbFarben.Size = new Size(121, 23);
+            cmbFarben.Size = new Size(138, 28);
             cmbFarben.TabIndex = 16;
             // 
             // btnRechteck
             // 
-            btnRechteck.Location = new Point(713, 56);
+            btnRechteck.Location = new Point(831, 106);
+            btnRechteck.Margin = new Padding(3, 4, 3, 4);
             btnRechteck.Name = "btnRechteck";
-            btnRechteck.Size = new Size(227, 229);
+            btnRechteck.Size = new Size(256, 299);
             btnRechteck.TabIndex = 17;
             btnRechteck.UseVisualStyleBackColor = true;
             // 
             // tbxBreite
             // 
-            tbxBreite.Location = new Point(216, 22);
+            tbxBreite.Location = new Point(247, 29);
+            tbxBreite.Margin = new Padding(3, 4, 3, 4);
             tbxBreite.Name = "tbxBreite";
-            tbxBreite.Size = new Size(100, 23);
+            tbxBreite.Size = new Size(114, 27);
             tbxBreite.TabIndex = 18;
             tbxBreite.TextChanged += tbxBreite_TextChanged_1;
             // 
             // tbxHoehe
             // 
-            tbxHoehe.Location = new Point(216, 64);
+            tbxHoehe.Location = new Point(247, 85);
+            tbxHoehe.Margin = new Padding(3, 4, 3, 4);
             tbxHoehe.Name = "tbxHoehe";
-            tbxHoehe.Size = new Size(100, 23);
+            tbxHoehe.Size = new Size(114, 27);
             tbxHoehe.TabIndex = 19;
             tbxHoehe.TextChanged += tbxHoehe_TextChanged;
             // 
             // tbxFlaeche
             // 
-            tbxFlaeche.Location = new Point(216, 184);
+            tbxFlaeche.Location = new Point(247, 245);
+            tbxFlaeche.Margin = new Padding(3, 4, 3, 4);
             tbxFlaeche.Name = "tbxFlaeche";
             tbxFlaeche.ReadOnly = true;
-            tbxFlaeche.Size = new Size(100, 23);
+            tbxFlaeche.Size = new Size(114, 27);
             tbxFlaeche.TabIndex = 20;
             tbxFlaeche.TextChanged += tbxFlaeche_TextChanged_1;
             // 
             // tbxUmfang
             // 
-            tbxUmfang.Location = new Point(216, 240);
+            tbxUmfang.Location = new Point(247, 320);
+            tbxUmfang.Margin = new Padding(3, 4, 3, 4);
             tbxUmfang.Name = "tbxUmfang";
             tbxUmfang.ReadOnly = true;
-            tbxUmfang.Size = new Size(100, 23);
+            tbxUmfang.Size = new Size(114, 27);
             tbxUmfang.TabIndex = 21;
             // 
             // tbxDiagonale
             // 
-            tbxDiagonale.Location = new Point(216, 289);
+            tbxDiagonale.Location = new Point(247, 385);
+            tbxDiagonale.Margin = new Padding(3, 4, 3, 4);
             tbxDiagonale.Name = "tbxDiagonale";
             tbxDiagonale.ReadOnly = true;
-            tbxDiagonale.Size = new Size(100, 23);
+            tbxDiagonale.Size = new Size(114, 27);
             tbxDiagonale.TabIndex = 22;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1327, 724);
+            ClientSize = new Size(1590, 1012);
             Controls.Add(tbxDiagonale);
             Controls.Add(tbxUmfang);
             Controls.Add(tbxFlaeche);
@@ -208,6 +218,7 @@
             Controls.Add(lblFleache);
             Controls.Add(lblHoehe);
             Controls.Add(lblBreite);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

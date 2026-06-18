@@ -19,6 +19,13 @@ namespace projekt_Rechteck
 
 
         }
+        private void AktualisiereGrafik()
+        {
+            btnRechteck.Width = Convert.ToInt32(rechteck.Breite * 38);
+            btnRechteck.Height = Convert.ToInt32(rechteck.Hoehe * 38);
+            btnRechteck.Left = 950 - (btnRechteck.Width / 2);
+            btnRechteck.Top = 455 - (btnRechteck.Height / 2);
+        }
 
 
 
@@ -73,6 +80,8 @@ namespace projekt_Rechteck
                 tbxUmfang.Text = Math.Round(rechteck.Umfang(), 3).ToString();
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
+                AktualisiereGrafik();
+
 
 
             }
@@ -105,6 +114,8 @@ namespace projekt_Rechteck
                 tbxUmfang.Text = Math.Round(rechteck.Umfang(), 3).ToString();
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
+                AktualisiereGrafik();
+
 
 
             }
@@ -140,5 +151,7 @@ namespace projekt_Rechteck
             }
 
         }
-        }
+
+    
     }
+}
