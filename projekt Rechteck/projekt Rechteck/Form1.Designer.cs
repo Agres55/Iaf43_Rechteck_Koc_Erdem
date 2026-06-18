@@ -138,10 +138,8 @@
             // cmbFarben
             // 
             cmbFarben.FormattingEnabled = true;
-<<<<<<< HEAD
+
             cmbFarben.Items.AddRange(new object[] { "Schwarz", "Blau ", "Rot", "Gelb", "Weiß" });
-=======
->>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
             cmbFarben.Location = new Point(218, 715);
             cmbFarben.Margin = new Padding(3, 4, 3, 4);
             cmbFarben.Name = "cmbFarben";
@@ -151,17 +149,14 @@
             // 
             // btnRechteck
             // 
-<<<<<<< HEAD
             btnRechteck.Location = new Point(815, 75);
             btnRechteck.Margin = new Padding(3, 4, 3, 4);
             btnRechteck.Name = "btnRechteck";
             btnRechteck.Size = new Size(259, 305);
-=======
             btnRechteck.Location = new Point(831, 106);
             btnRechteck.Margin = new Padding(3, 4, 3, 4);
             btnRechteck.Name = "btnRechteck";
             btnRechteck.Size = new Size(256, 299);
->>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
             btnRechteck.TabIndex = 17;
             btnRechteck.UseVisualStyleBackColor = true;
             // 
@@ -233,13 +228,10 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-<<<<<<< HEAD
             ClientSize = new Size(1517, 965);
             Controls.Add(lblText);
             Controls.Add(tbxText);
-=======
             ClientSize = new Size(1590, 1012);
->>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
             Controls.Add(tbxDiagonale);
             Controls.Add(tbxUmfang);
             Controls.Add(tbxFlaeche);
