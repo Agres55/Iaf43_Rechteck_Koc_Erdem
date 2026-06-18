@@ -12,6 +12,28 @@ namespace projekt_Rechteck
         }
         Rechteck rechteck = new Rechteck();
 
+<<<<<<< HEAD
+=======
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+
+
+        }
+        private void AktualisiereGrafik()
+        {
+            btnRechteck.Width = Convert.ToInt32(rechteck.Breite * 38);
+            btnRechteck.Height = Convert.ToInt32(rechteck.Hoehe * 38);
+            btnRechteck.Left = 950 - (btnRechteck.Width / 2);
+            btnRechteck.Top = 455 - (btnRechteck.Height / 2);
+        }
+
+
+
+>>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
         private void btnReinzoomen_Click(object sender, EventArgs e)
         {
             try
@@ -67,6 +89,12 @@ namespace projekt_Rechteck
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
                 AktualisiereGrafik();
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
             }
             catch (FormatException)
             {
@@ -101,6 +129,12 @@ namespace projekt_Rechteck
                 tbxFlaeche.Text = Math.Round(rechteck.Flaeche(), 3).ToString();
                 tbxDiagonale.Text = Math.Round(rechteck.Diagonal(), 3).ToString();
                 AktualisiereGrafik();
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
             }
             catch (FormatException)
             {
@@ -129,6 +163,7 @@ namespace projekt_Rechteck
 
         }
 
+<<<<<<< HEAD
         private void cmbFarben_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -179,4 +214,8 @@ namespace projekt_Rechteck
         }
     }
 
+=======
+    
+    }
+>>>>>>> b28617103f807ec05130fe692ebd01aeaca0aa9c
 }
